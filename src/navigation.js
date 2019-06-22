@@ -21,7 +21,7 @@ const PhotoStack = createStackNavigator({
   }
 })
 
-export default PhotoNavigator = createAppContainer(
+export default PhotoNavigator = createSwitchNavigator(
   {
     Auth: AuthStack,
     Photo: PhotoStack
